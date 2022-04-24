@@ -30,6 +30,7 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun WeatherApp(){
     WeatherTheme {
+
         Surface(
             modifier = Modifier.fillMaxSize(),
             color = MaterialTheme.colors.background
